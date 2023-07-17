@@ -1,6 +1,7 @@
-import ProductForm from "@/app/componenet/products/product-form";
-import ProductLists from "@/app/componenet/products/product-lists";
-import { getAllProduct } from "@/actions/product-actions";
+import ProductForm from "@/componenet/products/product-form";
+import ProductLists from "@/componenet/products/product-lists";
+// import { getAllProduct } from "@/actions/product-actions";
+import { getAllProduct } from "@/actions/product-actions-prisma";
 
 const Posts: React.FC = async () => {
   const products = await getAllProduct();

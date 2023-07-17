@@ -1,4 +1,4 @@
-import Navigation from "@/app/componenet/Header/Navigation";
+import Navigation from "@/componenet/Header/Navigation";
 import Image from "next/image";
 
 export default function Home() {

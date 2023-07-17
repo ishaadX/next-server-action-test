@@ -1,9 +1,9 @@
 "use client";
 
-import DeleteProduct from "@/app/componenet/products/delete-product";
+import DeleteProduct from "@/componenet/products/delete-product";
 import { Product } from "@/type/product";
 import { useState } from "react";
-import EditProduct from "@/app/componenet/products/edit-product";
+import EditProduct from "@/componenet/products/edit-product";
 
 type IProps = {
   product: Product;

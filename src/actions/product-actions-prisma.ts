@@ -7,5 +7,5 @@ import { NextResponse } from "next/server";
 
 export const getAllProduct = async () => {
   const products = await prisma.product.findMany();
-  return NextResponse.json(products);
+  return products;
 };
